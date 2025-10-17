@@ -510,7 +510,7 @@
             crossorigin=""></script>
     <script>
         // Khởi tạo bản đồ
-        var map = L.map('map').setView([16.6667, 112.7333], 8); // Tập trung vào khu vực Hoàng Sa
+        var map = L.map('map').setView([16.6667, 112.7333], 8); // 
 
         // Thêm lớp bản đồ từ MapTiler
         L.tileLayer('https://api.maptiler.com/maps/streets-v2/256/{z}/{x}/{y}.png?key=ntgWl4WBBe4BoXakq2Na', {
@@ -518,7 +518,7 @@
                        '<a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
         }).addTo(map);
 
-        // Thêm marker cho Quần đảo Hoàng Sa
+        // Thêm marker cho Bản đồ toán học
         var hoangSaMarker = L.marker([16.6667, 112.7333]).addTo(map);
         hoangSaMarker.bindPopup("<b>Quần đảo Hoàng Sa</b><br>Lãnh thổ Việt Nam").openPopup();
 
